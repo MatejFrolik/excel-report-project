@@ -18,7 +18,8 @@ Cílem projektu je zobrazit v jednotlivých tabulkách a grafech **rozdělení o
 5. Vytvoření **sliceru** (průřezu) pomocí krajů na úvodní pivot tabulku.  
 5. Vytvoření **pivot column charts** a **pivot pie charts** (sloupcové a výsečové grafy)pro grafické zobrazení počtu obyvatel podle rodinného stavu.
 6. Conditional formating (podmíněné formátování) pro pivot tabulku zobrazující jednotlivé kraje.
-7. Závěrečná grafická úprava celého reportu.
+7. Vytvoření sheet2 (listu 2 s názvem detail na obce), který nám ukazuje jednotlivé **porovnání rodinného stavu ve městech a obcích Čr**. Přidány rectangle shapes (obdelníkový tvar) sloužící jako tlačítko pro přepínání mezi jednotlivými listy reportu. 
+8. Závěrečná grafická úprava celého reportu.
 
 Navázání dvou tabulek (uzemi_kod pro obě dvě tabulky shodný, data_kraj znázorňuje tabulka obsahující kraje ČR dle územních kódů, č. 2 značí druhý sloupec obsahující názvy krajů):
 ```
@@ -28,3 +29,5 @@ Filtrování nulových hodnot, v dané tabulce souhrnné hodnoty po jednotlivá 
 ```
    =IF([@[stav_txt]]<>"";1;0)
 ```
+
+Obě jednotlivé úpravy lze ošetřit při manipulaci s daty v power query pomocí filtrů a merge queries (sloučení dotazů).
