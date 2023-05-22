@@ -34,7 +34,8 @@ Obě jednotlivé úpravy lze ošetřit při manipulaci s daty v power query pomo
 
 <br /><br />
 
-###Grafické znázornění rodinného stavu v Čr a krajích v roce 2021
+##Grafické znázornění rodinného stavu v Čr a krajích v roce 2021
+
 ![My Image](pic/marital-cz.png)
 ![My Image](pic/marital-cz-p.png)
 <br />
